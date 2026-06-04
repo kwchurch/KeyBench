@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+from jsonpath_ng import jsonpath, parse
+import nltk
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--KeyBench", help='json file from KeyBench', required=True)
+parser.add_argument("--Candidates", help='json file', required=True)
+parser.add_argument("--jsonpath_pattern", help='row to start on', required=True)
+args = parser.parse_args()
