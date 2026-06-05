@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+
+from openai import OpenAI
+
+# The client automatically picks up the OPENAI_API_KEY environment variable
+client = OpenAI()
+
+# Construct your prompt parameters
+response = client.chat.completions.create(
+    model="gpt-4o-mini",  # Using a fast, modern model
+    messages=[
+        {
+            "role": "system", 
+            "content": "You are a researcher with extensive knowledge about all the scientific fields."
+        },
+        {
+            "role": "user", 
+            "content": """Output a python list of specific scientific concepts in the
+following text as valid lower case string encased within double
+quotes. Include acronyms and abbreviations as well.
+
+    [START OF DOCUMENT]
+Search in social networks such as Facebook poses different challenges than in classical web search: besides the query text, it is important to take into account the searcher's context to provide relevant results. Their social graph is an integral part of this context and is a unique aspect of Facebook search. While embedding-based retrieval (EBR) has been applied in web search engines for years, Facebook search was still mainly based on a Boolean matching model. In this paper, we discuss the techniques for applying EBR to a Facebook Search system. We introduce the unified embedding framework developed to model semantic embeddings for personalized search, and the system to serve embedding-based retrieval in a typical search system based on an inverted index. We discuss various tricks and experiences on end-to-end optimization of the whole system, including ANN parameter tuning and full-stack optimization. Finally, we present our progress on two selected advanced topics about modeling. We evaluated EBR on verticals for Facebook Search with significant metrics gains observed in online A/B experiments. We believe this paper will provide useful insights and experiences to help people on developing embedding-based retrieval systems in search engines.
+    [END OF DOCUMENT]
+
+"""
+        }
+    ],
+    temperature=0.7 # Balances focus and creativity
+)
+
+# Extract and print the model's text response
+print(response.choices[0].message.content)

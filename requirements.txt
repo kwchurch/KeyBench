@@ -1,2 +1,3 @@
 nltk
 jsonpath-ng
+openai
