@@ -17,3 +17,7 @@ echo 252873724 256697363 39955946 |
 tr ' ' '\n' |
 python keywords_from_bot.py --KeyBench $HOME/to_go/keywords7.json --output /tmp/keywords_from_bot.json
 ```
+
+This tool takes one or more CorpusIds as input, and outputs keywords for each of them (in a format that can be scored by KeyBench_score).
+
+CorpusIds are primary keys for semantic scholar.  we assume there are titles and abstracts for these CorpusIds in the argument to --KeyBench.
