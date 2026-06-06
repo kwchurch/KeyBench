@@ -6,6 +6,7 @@ from openai import OpenAI
 parser = argparse.ArgumentParser()
 parser.add_argument("--KeyBench", help='json file from KeyBench', required=True)
 parser.add_argument("--output", help='file name for json', required=True)
+parser.add_argument("--model", helkp='defaults to gpt-4o-mini', default="gpt-4o-mini")
 args = parser.parse_args()
 
 with open(args.KeyBench, 'r') as fd:
@@ -37,7 +38,7 @@ Abstract: {j['abstract']}
 
 """            
             response = client.chat.completions.create(
-                model="gpt-4o-mini",  # Using a fast, modern model
+                model=args.model,
                 messages=[
                     {
                         "role": "system", 
