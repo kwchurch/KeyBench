@@ -1,0 +1,50 @@
+# KeyBench
+
+This data is posted in three places:
+
+* https://doi.org/10.7910/DVN/CZNUZN
+* https://doi.org/10.5061/dryad.bk3j9kdsn
+* https://drive.google.com/file/d/17LEj3Ybwyt_oDq-vjcxmOo065lhC7KVo/view?usp=sharing
+
+This resource is intended to encourage the community to build tools to
+extract keywords.  Many papers on ArXiv list keywords on the first
+page, typically near the abstract.  The proposed resource scrapes
+these keywords, and uses them as the gold standard for a prediction
+task.  An evaluation compares three baselines for predicting the gold
+standard: (1) VitaLity, (2) topics from Semantic Scholar and (3) a
+chatbot.  The resource is intended to challenge the community to beat
+these baselines.  To make it easier for the community to build such
+systems, the resource includes a number of fields for 117,877 papers
+from Semantic Scholar: (a) title, (b) abstract, (c) authors, (d)
+citing sentences, and (e) ids to make it easier to join with data in
+resources such as ArXiv, Semantic Scholar, ACL Anthology, PubMed, etc.
+We hope the community will show that citing sentences are useful
+because of the wisdom of the crowd. Good keywords are likely to be
+used by many authors.
+
+
+
+
+## Description of the data and file structure
+
+This is a freeform section for you to describe how the data are structured and how a potential consumer might use them. Be as descriptive as necessary. Keep in mind that users of your data might be new to the field and unfamiliar with common terminology, metrics, etc.
+
+Describe relationships between data files, missing data codes, other abbreviations used. Be as descriptive as possible.
+
+
+## Sharing/Access information
+
+This is a section for linking to other ways to access the data, and for linking to sources the data is derived from, if any.
+
+Links to other publicly accessible locations of the data:
+ - [http://...](http://...)
+
+Data was derived from the following sources:
+ - []()
+
+
+## Code/Software
+
+This is an optional, freeform section for describing any code in your submission and the software used to run it.
+
+Describe any scripts, code, or notebooks (e.g., R, Python, Mathematica, MatLab) as well as the software versions (including loaded packages) that you used to run those files. If your repository contains more than one file whose relationship to other scripts is not obvious, provide information about the workflow that you used to run those scripts and notebooks.
