@@ -28,16 +28,16 @@ A draft paper is posted <a href="https://github.com/kwchurch/KeyBench/blob/main/
 The paper mentions $G$, $V$ and $S$ labels:
 
 <table>
-<tr><th>Symbol</th><th>Description</th><th>json field</th></tr>
-<tr><td>$G$</td><td>Gold labels</td></td>keywords_from_pdf</td></tr>
-<tr><td>$V$</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a> labels</td></td>keywords_from_vitality</td></tr>
-<tr><td>$S$</td><td>Semantic Scholar Topics</td></td>keywords_from_s2</td></tr>
-<tr><td></td><td>Citing sentences</td><td><td>citing_sentences</td></tr>
-<tr><td></td><td>ids for joining with other resources</td><td><td>externalids</td></tr>
-<tr><td></td><td>url to Semantic Scholar</td><td><td>url</td></tr>
-<tr><td></td><td>title</td><td><td>title</td></tr>
-<tr><td></td><td>abstract</td><td><td>abstract</td></tr>
-<tr><td></td><td>authors</td><td><td>authors</td></tr>
+<tr><th>Symbol</th><th>Description</th><th>json field</th><th>Source of Data</th></tr>
+<tr><td>$G$</td><td>Gold labels</td></td>keywords_from_pdf</td><td>Scrape pdfs from ArXiv</td></tr>
+<tr><td>$V$</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a> labels</td></td>keywords_from_vitality</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a></td></tr>
+<tr><td>$S$</td><td>Semantic Scholar Topics</td></td>keywords_from_s2</td><td>files on AWS (see below)</td></tr>
+<tr><td></td><td>Citing sentences</td><td><td>citing_sentences</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
+<tr><td></td><td>ids for joining with other resources</td><td>externalids</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
+<tr><td></td><td>url to Semantic Scholar</td><td>url</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
+<tr><td></td><td>title</td><td>title</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
+<tr><td></td><td>abstract</td><td>abstract</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
+<tr><td></td><td>authors</td><td>authors</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
 </table>
 
 There are two types of labels under $S$: $S_m$ (mention) and $S_c$ (cited for).  See discussion in paper
@@ -48,7 +48,7 @@ for more details about those labels.  These labels are based on three publicly a
 
 The task is to predict the $G$ labels from titles, abstracts and citing sentences in the json file.
 
-Many values are missing (not in json).
+Many values are missing (not in json), as discussed in the draft paper.
 
 The github mentioned above provides code for evaluation.
 
