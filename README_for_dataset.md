@@ -25,12 +25,16 @@ used by many authors.
 For more details, see <a href="https://github.com/kwchurch/KeyBench">github<a/>.
 A draft paper is posted <a href="https://github.com/kwchurch/KeyBench/blob/main/draft.pdf">here</a>.
 
+The json object is a python dict.  The keys are corpusids (primary keys in Semantic Scholar).  Since <a href="https://vitality-vis.github.io/">VitaLITy</a>
+does not provide join keys into Semantic Scholar, those corpusids were inferred by an (imperfect) heuristic process based on titles.
+Vitality provides many values in addition to keywords.  Many of those other fields are in the json as well.
+
 The paper mentions $G$, $V$ and $S$ labels:
 
 <table>
 <tr><th>Symbol</th><th>Description</th><th>json field</th><th>Source of Data</th></tr>
-<tr><td>$G$</td><td>Gold labels</td></td>keywords_from_pdf</td><td>Scrape pdfs from ArXiv</td></tr>
-<tr><td>$V$</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a> labels</td></td>keywords_from_vitality</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a></td></tr>
+<tr><td>$G$</td><td>Gold labels</td><td>keywords_from_pdf</td><td>Scrape pdfs from ArXiv</td></tr>
+<tr><td>$V$</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a> labels</td></td>VitaLITy</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a></td></tr>
 <tr><td>$S$</td><td>Semantic Scholar Topics</td></td>keywords_from_s2</td><td>files on AWS (see below)</td></tr>
 <tr><td></td><td>Citing sentences</td><td><td>citing_sentences</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
 <tr><td></td><td>ids for joining with other resources</td><td>externalids</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
