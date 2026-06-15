@@ -1,10 +1,14 @@
-# KeyBench
+# KeyBench: A Resource for Extracting Keywords from Scientific Papers
+
+## Availability
 
 This data is posted in three places:
 
 * <a href="https://doi.org/10.5061/dryad.bk3j9kdsn">doi.org/10.5061</a>
 * <a href="https://doi.org/10.7910/DVN/CZNUZN">doil.org/10.7910</a>
 * <a href="https://drive.google.com/file/d/17LEj3Ybwyt_oDq-vjcxmOo065lhC7KVo/view?usp=sharing">Google Drive</a>
+
+## Motivation and Task Description
 
 This resource is intended to encourage the community to build tools to
 extract keywords.  Many papers on ArXiv list keywords on the first
@@ -22,7 +26,9 @@ We hope the community will show that citing sentences are useful
 because of the wisdom of the crowd. Good keywords are likely to be
 used by many authors.
 
-For more details, see <a href="https://github.com/kwchurch/KeyBench">github<a/>.
+## More Details
+
+See <a href="https://github.com/kwchurch/KeyBench">github<a/>.
 A draft paper is posted <a href="https://github.com/kwchurch/KeyBench/blob/main/draft.pdf">here</a>.
 
 The json object is a python dict.  The keys are corpusids (primary keys in Semantic Scholar).  Since <a href="https://vitality-vis.github.io/">VitaLITy</a>
