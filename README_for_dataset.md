@@ -36,7 +36,7 @@ The paper mentions $G$, $V$ and $S$ labels:
 <tr><td>$G$</td><td>Gold labels</td><td>keywords_from_pdf</td><td>Scrape pdfs from ArXiv</td></tr>
 <tr><td>$V$</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a> labels</td></td>VitaLITy</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a></td></tr>
 <tr><td>$S$</td><td>Semantic Scholar Topics</td></td>keywords_from_s2</td><td>files on AWS (see below)</td></tr>
-<tr><td></td><td>Citing sentences</td><td><td>citing_sentences</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
+<tr><td></td><td>Citing sentences</td><td>citing_sentences</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
 <tr><td></td><td>ids for joining with other resources</td><td>externalids</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
 <tr><td></td><td>url to Semantic Scholar</td><td>url</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
 <tr><td></td><td>title</td><td>title</td><td> <a href="https://api.semanticscholar.org/api-docs/datasets">Semantic Scholar Bulk Download</a></td></tr>
