@@ -60,9 +60,9 @@ The task is to predict the $G$ labels from titles, abstracts and citing sentence
 
 Many values are missing (not in json), as discussed in the draft paper.
 
-The github mentioned above provides
+The github mentioned above provides:
  * code for evaluation
- * code for scrping pdfs
+ * code for scraping pdfs
  * code for using bots to extract keywords from pdfs
  
 
