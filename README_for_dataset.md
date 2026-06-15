@@ -32,6 +32,12 @@ The paper mentions $G$, $V$ and $S$ labels:
 <tr><td>$G$</td><td>Gold labels</td></td>keywords_from_pdf</td></tr>
 <tr><td>$V$</td><td><a href="https://vitality-vis.github.io/">VitaLITy</a> labels</td></td>keywords_from_vitality</td></tr>
 <tr><td>$S$</td><td>Semantic Scholar Topics</td></td>keywords_from_s2</td></tr>
+<tr><td></td><td>Citing sentences</td><td><td>citing_sentences</td></tr>
+<tr><td></td><td>ids for joining with other resources</td><td><td>externalids</td></tr>
+<tr><td></td><td>url to Semantic Scholar</td><td><td>url</td></tr>
+<tr><td></td><td>title</td><td><td>title</td></tr>
+<tr><td></td><td>abstract</td><td><td>abstract</td></tr>
+<tr><td></td><td>authors</td><td><td>authors</td></tr>
 </table>
 
 There are two types of labels under $S$: $S_m$ (mention) and $S_c$ (cited for).  See discussion in paper
