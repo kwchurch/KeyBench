@@ -1,0 +1,5 @@
+Even more recently, a work by Giancarlo et al., considered the case where ordering is assigned to the nodes of a string’s suﬃx tree, to minimize the number of runs in the BWT [17].
+…far in the literature [45, 5, 9], were either simple modiﬁcations that do not bring new theoretical insight or they were signiﬁcantly diﬀerent but without the remarkable compression and search properties of the original BW T (see [21, Section 2.1] for a more detailed discussion of these variants).
+Note that recently [21], the complexity for the inversion of a generic transformation in BW T K has been improved to O ( n 2 ) time. that The following theorem proved in [20] shows each transformation BW T K produces a number of equal-letter runs that is at most the double of the number of…
+Motivated by the discovering of the ABW T , in [21] the authors explore a class of string transformations that includes the one considered in this paper.
+, the authors in [15] introduced a new family of BWT variants based on context adaptive alphabet orderings and on local orderings.

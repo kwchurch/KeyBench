@@ -1,7 +1,7 @@
 # KeyBench
 A benchmark for a keyword prediction task: input academic paper --> output keywords
 
-## Description of Dataset
+## Downloading the full Dataset as well as a sample
 
 Dataset is discussed <a href="README_for_dataset.md">here</a>.
 That link also explains how to download the larger collection of 117,877 json records (352 MB).

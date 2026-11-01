@@ -1,0 +1,19 @@
+Metadata for each candidate such as the DIGEST 2 (Keys et al., 2019) score (ranging from 0 … 100, based on how NEO-like the orbit is), arc length, discovery and last observed times are extracted.
+Moreover, a chance that the detected object will be identified as interesting for follow-up, that would lead to its orbit determination and classification as interstellar, depends on complex set of parameters included in the Minor Planet Center’s so-called digest score (Keys et al. 2019).
+Furthermore, there are functions for running the Digest2 [14] software locally on the resulting MPC reports, so that objects of interest can be spotted quickly.
+For a more exhaustive description of digest2 , see S. Keys et al. ( 2019 ) .
+This probability is quanti ﬁ ed using the digest2 code ( S. Keys et al. 2019 ) . digest2 assigns a score between 0 and 100 based on potential orbits that ﬁ t the observations and only objects with a score of 65 or more are listed on the page.
+This score, ranging from 0 to 100, quanti ﬁ es the probability that the object is an NEO and is calculated using the digest2 code ( S. Keys et al. 2019 ) .
+The population model used by digest2 for orbit classi ﬁ cation is S3M ( S. Keys et al. 2019 ) .
+Although it has been improved continuously, digest2 and the D2 = 65 threshold are not perfect predictors for NEOs, and [17] shows cases of NEOs scoring bellow the threshold in some circumstances and recommends some possible code improvements.
+Based on the reduced reports for each field, the NEA candidates were flagged using the MPC NEO Rating(2) [17] and our simple EURONEAR ǫ−μ tool [5] implemented online in 2018 as the NEA Checker(3) in order to allow recovery and follow-up using the INT or other telescopes from the EURONEAR network.
+Based on the reduced reports for each field, the NEA candidates were flagged using the MPC NEO Rating2 [17] and our simple EURONEAR ǫ−µ tool [5] implemented online in 2018 as the NEA Checker3 in order to allow recovery and follow-up using the INT or other telescopes from the EURONEAR network.
+The algorithm uses two population models and it was presented in detail [17], the code being made available later.
+Candidates that are judged to be real asteroids are submitted to the Minor Planet Center (MPC).16 The MPC will then perform its own check against known asteroids, and the likelihood of the object being an NEO (e.g., Keys et al. 2019).
+Notably, the classification algorithms for FMCB have been directly adapted from state-of-the-art image classification methods (Waszczak et al. 2017; Keys et al. 2019; Jia et al. 2019; Turpin et al. 2020; Panes et al. 2021; Yan et al. 2022).
+Before the publication of Keys et al. (2019), the model was last updated in 2015 when the known catalog consisted of 700000 orbits.
+The digest 2 code requires a population model in the form of binned data that is used to weight the variant orbits produced for a given tracklet (Keys et al. 2019).
+These upgrades were much needed and were listed among the key desired developments in (Keys et al. 2019).
+One of the conclusions of Keys et al. (2019) was that the D 2 of certain NEOs could be low.
+Detailed work on digest 2 by Keys et al. (2019) describes the concept and functionality of the scoring mechanism and also outlines its current caveats, disadvantages and future developments.
+For a given tracklet, variant orbits are constructed from the synthetized tracklet end-points that are dithered based on the astrometric uncertainty (for further details, see Keys et al. 2019).

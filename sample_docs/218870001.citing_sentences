@@ -1,0 +1,8 @@
+Based on these definitions, the demand Di[k] for Segment i can be written, similar to [41, 42], as
+Development of analytical equations for junction flows in the ARZ and other similar second-order models is an active field of research [43, 42, 41], with different papers providing different approaches to model the junction flows, some more complex than the others.
+• GHMW network : The AP ARZ model with the coupling condition from [9] on networks with diverging, merging, and / or hybrid junctions.
+Recently, a new adapted pressure (AP) ARZ model and a new junction condition were proposed in [9], allowing for the assignment of di ff erent pressure functions for tra ffi c before and after passing through a junction.
+This ARZ model was later extended and generalized in [7, 8, 9].
+Considering the application of ARZ model on networks, various junction conditions have been proposed, e.g., [13, 14, 15, 16, 9, 17, 18].
+Various options for coupling condition are available in the literature, for example, [14, 19, 13, 15, 9].
+Incoming roads Similar to outgoing roads, the states on the outgoing roads can be determined by imposing right of way parameters to which the outgoing fluxes are to be proportional [5,7].

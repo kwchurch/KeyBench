@@ -7,6 +7,9 @@ This data is posted in two places:
 * <a href="https://doi.org/10.5061/dryad.bk3j9kdsn">doi.org/10.5061</a>
 * <a href="https://drive.google.com/file/d/17LEj3Ybwyt_oDq-vjcxmOo065lhC7KVo/view?usp=sharing">Google Drive</a>
 
+Since the larger collection of 117,877 json records (352 MB) is too big for GitHub, there is a small (teaser) sample <a href="sample">here</a>.
+
+
 ## Motivation and Task Description
 
 This resource is intended to encourage the community to build tools to
@@ -64,4 +67,23 @@ The github mentioned above provides:
  * code for scraping pdfs
  * code for using bots to extract keywords from pdfs
  
+## Scraping PDFs
+
+We limited scraping to papers from ArXiv because it is easy to
+download documents from there.  We chose arXiv papers that overlapped
+with s2orc and/or VitaLITy.  A small sample of these pdfs are posted <a href="sample_docs">here</a>,
+as well as several additional files.  For example, for <a href="sample_docs/125950001.pdf">pdf from arXiv</a>
+there are three additional files:
+
+* <a href="sample_docs/125950001.json">json version of pdf (using PyMuPDF)</a>
+* <a href="sample_docs/125950001.json.keywords2">keywords extracted from above</a>
+* <a href="sample_docs/125950001.citing_sentences">citing sentences (from Semantic Scholar)</a>
+
+The strings in <a href="sample_docs/125950001.json.keywords2">keywords extracted from above</a>
+are used to create the keywords_from_pdf field in the collection.
+
+The code for extracting <a href="sample_docs/125950001.json.keywords2">keywords extracted from above</a>
+from <a href="sample_docs/125950001.json">json version of pdf (using PyMuPDF)</a> is <a href="scrape">here</a>.
+
+Documentation for PyMuPDF is available <a href="https://pymupdf.readthedocs.io/en/latest/">here</a>.
 
