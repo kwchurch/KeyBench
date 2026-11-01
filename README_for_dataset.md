@@ -84,6 +84,33 @@ are used to create the keywords_from_pdf field in the collection.
 
 The code for extracting <a href="sample_docs/125950001.json.keywords2">keywords extracted from above</a>
 from <a href="sample_docs/125950001.json">json version of pdf (using PyMuPDF)</a> is <a href="scrape">here</a>.
+The code selects papers that mention the term "Keyword" on the first page.  It extracts text lines in relevant text blocks,
+using simple heuristics expressed in terms of jsonpath patterns.
 
 Documentation for PyMuPDF is available <a href="https://pymupdf.readthedocs.io/en/latest/">here</a>.
 
+## Evaluating Quality of Keywords from PDFs
+
+This tool was used to extract samples of arXiv papers and keywords using an interface
+that makes it easy to judge the results.  The interface code was written by a bot,
+and is posted <a href="scrape/extract_arxiv_keywords.py">here</a>.
+
+Two judges evaluated about 500 papers.  See <a href="eval">here</a> for their judgments.
+Note that the scraping tool outputs strings like this:
+
+<pre>
+Keywords:
+ short-arc orbit determination, asteroids, Near-Earth Object, Minor Planet Center
+ </pre>
+
+The evaluation script turns that string in a list of four keywords:
+
+ * short-arc orbit determination
+ * asteroids
+ * Near-Earth Object
+ * Minor Planet Center
+
+using a set of simple heuristics.  It turns out that this last step is more challenging than one
+might have thought.  The bot could have done a better job of removing leading strings like "Keywords:",
+as well as splitting keywords.  There are more ways to do this than one might have imagined.  The benchmark does not get
+into these details, but there is considerable room for improvement there.
