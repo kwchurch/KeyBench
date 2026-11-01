@@ -2,10 +2,9 @@
 
 ## Availability
 
-This data is posted in three places:
+This data is posted in two places:
 
 * <a href="https://doi.org/10.5061/dryad.bk3j9kdsn">doi.org/10.5061</a>
-* <a href="https://doi.org/10.7910/DVN/CZNUZN">doil.org/10.7910</a>
 * <a href="https://drive.google.com/file/d/17LEj3Ybwyt_oDq-vjcxmOo065lhC7KVo/view?usp=sharing">Google Drive</a>
 
 ## Motivation and Task Description
@@ -31,7 +30,7 @@ used by many authors.
 See <a href="https://github.com/kwchurch/KeyBench">github<a/>.
 A draft paper is posted <a href="https://github.com/kwchurch/KeyBench/blob/main/draft.pdf">here</a>.
 
-The json object is a python dict.  The keys are corpusids (primary keys in Semantic Scholar).  Since <a href="https://vitality-vis.github.io/">VitaLITy</a>
+The json object in keywords7.zip is a python dict.  The keys are corpusids (primary keys in Semantic Scholar).  Since <a href="https://vitality-vis.github.io/">VitaLITy</a>
 does not provide join keys into Semantic Scholar, those corpusids were inferred by an (imperfect) heuristic process based on titles.
 Vitality provides many values in addition to keywords.  Many of those other fields are in the json as well.
 

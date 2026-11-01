@@ -1,0 +1,1604 @@
+{
+  "source_records": 117877,
+  "sample_records": 5000,
+  "coverage_records": 483,
+  "fill_records": 4517,
+  "k": 3,
+  "seed": 42,
+  "n_features": 398,
+  "features_covered": 398,
+  "features": {
+    "abstract_len=<=1000": {
+      "full": 32581,
+      "sample": 1391
+    },
+    "abstract_len=<=200": {
+      "full": 701,
+      "sample": 38
+    },
+    "abstract_len=<=2500": {
+      "full": 42650,
+      "sample": 1799
+    },
+    "abstract_len=<=50": {
+      "full": 25,
+      "sample": 5
+    },
+    "abstract_len=<=5000": {
+      "full": 548,
+      "sample": 25
+    },
+    "abstract_len=>5000": {
+      "full": 103,
+      "sample": 8
+    },
+    "arxiv_format=new": {
+      "full": 63340,
+      "sample": 2665
+    },
+    "arxiv_format=old": {
+      "full": 5454,
+      "sample": 256
+    },
+    "author_non_ascii": {
+      "full": 14971,
+      "sample": 617
+    },
+    "author_null_id": {
+      "full": 881,
+      "sample": 28
+    },
+    "citing_len=<=10": {
+      "full": 744,
+      "sample": 33
+    },
+    "citing_len=<=1000": {
+      "full": 6371,
+      "sample": 265
+    },
+    "citing_len=<=30": {
+      "full": 838,
+      "sample": 41
+    },
+    "citing_len=<=300": {
+      "full": 89398,
+      "sample": 3734
+    },
+    "citing_len=<=5000": {
+      "full": 246,
+      "sample": 10
+    },
+    "citing_len=>5000": {
+      "full": 11,
+      "sample": 3
+    },
+    "ext=missing": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('ACL', 'CorpusId', 'DBLP', 'DOI')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('ArXiv', 'CorpusId')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('ArXiv', 'CorpusId', 'DBLP', 'DOI', 'MAG')": {
+      "full": 72,
+      "sample": 6
+    },
+    "ext_pattern=('ArXiv', 'CorpusId', 'DBLP', 'DOI', 'MAG', 'PubMed')": {
+      "full": 6,
+      "sample": 3
+    },
+    "ext_pattern=('ArXiv', 'CorpusId', 'DBLP', 'MAG')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('CorpusId', 'DBLP')": {
+      "full": 79,
+      "sample": 3
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'DOI')": {
+      "full": 268,
+      "sample": 12
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'DOI', 'MAG')": {
+      "full": 36947,
+      "sample": 1532
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'DOI', 'MAG', 'PubMed')": {
+      "full": 3328,
+      "sample": 120
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'DOI', 'MAG', 'PubMed', 'PubMedCentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'DOI', 'MAG', 'PubMedCentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'DOI', 'PubMed')": {
+      "full": 16,
+      "sample": 4
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'MAG')": {
+      "full": 7193,
+      "sample": 289
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'MAG', 'PubMed')": {
+      "full": 15,
+      "sample": 3
+    },
+    "ext_pattern=('CorpusId', 'DBLP', 'PubMed')": {
+      "full": 10,
+      "sample": 3
+    },
+    "ext_pattern=('CorpusId', 'DOI')": {
+      "full": 52,
+      "sample": 5
+    },
+    "ext_pattern=('CorpusId', 'DOI', 'MAG')": {
+      "full": 50,
+      "sample": 6
+    },
+    "ext_pattern=('CorpusId', 'DOI', 'MAG', 'PubMed')": {
+      "full": 9,
+      "sample": 3
+    },
+    "ext_pattern=('CorpusId', 'DOI', 'PubMed', 'PubMedCentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('CorpusId', 'MAG')": {
+      "full": 35,
+      "sample": 6
+    },
+    "ext_pattern=('CorpusId', 'MAG', 'PubMed')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('CorpusId', 'PubMed')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('CorpusId',)": {
+      "full": 98,
+      "sample": 14
+    },
+    "ext_pattern=('acl', 'arxiv')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp')": {
+      "full": 26,
+      "sample": 4
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp', 'doi')": {
+      "full": 927,
+      "sample": 29
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp', 'doi', 'mag')": {
+      "full": 474,
+      "sample": 23
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp', 'doi', 'mag', 'pubmed')": {
+      "full": 2,
+      "sample": 2
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp', 'doi', 'mag', 'pubmed', 'pubmedcentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp', 'doi', 'pubmed')": {
+      "full": 7,
+      "sample": 3
+    },
+    "ext_pattern=('acl', 'arxiv', 'dblp', 'mag')": {
+      "full": 105,
+      "sample": 8
+    },
+    "ext_pattern=('acl', 'arxiv', 'doi')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('acl', 'dblp', 'doi', 'mag')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('arxiv', 'dblp')": {
+      "full": 1385,
+      "sample": 61
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi')": {
+      "full": 19045,
+      "sample": 765
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'mag')": {
+      "full": 10200,
+      "sample": 445
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'mag', 'pubmed')": {
+      "full": 424,
+      "sample": 19
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'mag', 'pubmed', 'pubmedcentral')": {
+      "full": 292,
+      "sample": 8
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'mag', 'pubmedcentral')": {
+      "full": 23,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'pubmed')": {
+      "full": 428,
+      "sample": 18
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'pubmed', 'pubmedcentral')": {
+      "full": 403,
+      "sample": 11
+    },
+    "ext_pattern=('arxiv', 'dblp', 'doi', 'pubmedcentral')": {
+      "full": 7,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'dblp', 'mag')": {
+      "full": 4720,
+      "sample": 187
+    },
+    "ext_pattern=('arxiv', 'dblp', 'mag', 'pubmed')": {
+      "full": 8,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'dblp', 'mag', 'pubmed', 'pubmedcentral')": {
+      "full": 4,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'dblp', 'pubmed')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'doi')": {
+      "full": 3986,
+      "sample": 172
+    },
+    "ext_pattern=('arxiv', 'doi', 'mag')": {
+      "full": 16714,
+      "sample": 706
+    },
+    "ext_pattern=('arxiv', 'doi', 'mag', 'pubmed')": {
+      "full": 1519,
+      "sample": 66
+    },
+    "ext_pattern=('arxiv', 'doi', 'mag', 'pubmed', 'pubmedcentral')": {
+      "full": 330,
+      "sample": 17
+    },
+    "ext_pattern=('arxiv', 'doi', 'mag', 'pubmedcentral')": {
+      "full": 4,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'doi', 'pubmed')": {
+      "full": 326,
+      "sample": 22
+    },
+    "ext_pattern=('arxiv', 'doi', 'pubmed', 'pubmedcentral')": {
+      "full": 326,
+      "sample": 15
+    },
+    "ext_pattern=('arxiv', 'doi', 'pubmedcentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('arxiv', 'mag')": {
+      "full": 4427,
+      "sample": 181
+    },
+    "ext_pattern=('arxiv', 'mag', 'pubmed')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('arxiv', 'pubmed')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('arxiv', 'pubmed', 'pubmedcentral')": {
+      "full": 2,
+      "sample": 2
+    },
+    "ext_pattern=('arxiv',)": {
+      "full": 2585,
+      "sample": 116
+    },
+    "ext_pattern=('dblp', 'doi')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('dblp', 'doi', 'mag')": {
+      "full": 881,
+      "sample": 44
+    },
+    "ext_pattern=('dblp', 'doi', 'mag', 'pubmed')": {
+      "full": 40,
+      "sample": 5
+    },
+    "ext_pattern=('dblp', 'doi', 'mag', 'pubmed', 'pubmedcentral')": {
+      "full": 32,
+      "sample": 4
+    },
+    "ext_pattern=('dblp', 'doi', 'mag', 'pubmedcentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('dblp', 'doi', 'pubmed', 'pubmedcentral')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('doi', 'mag')": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_pattern=('doi', 'mag', 'pubmed', 'pubmedcentral')": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_pattern=('doi', 'pubmed', 'pubmedcentral')": {
+      "full": 2,
+      "sample": 2
+    },
+    "ext_pattern=('doi',)": {
+      "full": 7,
+      "sample": 3
+    },
+    "ext_schema=lower": {
+      "full": 69686,
+      "sample": 2978
+    },
+    "ext_schema=upper": {
+      "full": 48188,
+      "sample": 2019
+    },
+    "ext_type=ACL:NoneType": {
+      "full": 48187,
+      "sample": 2018
+    },
+    "ext_type=ACL:str": {
+      "full": 1,
+      "sample": 1
+    },
+    "ext_type=ArXiv:NoneType": {
+      "full": 48108,
+      "sample": 2008
+    },
+    "ext_type=ArXiv:str": {
+      "full": 80,
+      "sample": 11
+    },
+    "ext_type=CorpusId:str": {
+      "full": 48188,
+      "sample": 2019
+    },
+    "ext_type=DBLP:NoneType": {
+      "full": 250,
+      "sample": 40
+    },
+    "ext_type=DBLP:str": {
+      "full": 47938,
+      "sample": 1979
+    },
+    "ext_type=DOI:NoneType": {
+      "full": 7436,
+      "sample": 324
+    },
+    "ext_type=DOI:str": {
+      "full": 40752,
+      "sample": 1695
+    },
+    "ext_type=MAG:NoneType": {
+      "full": 529,
+      "sample": 47
+    },
+    "ext_type=MAG:str": {
+      "full": 47659,
+      "sample": 1972
+    },
+    "ext_type=PubMed:NoneType": {
+      "full": 44798,
+      "sample": 1877
+    },
+    "ext_type=PubMed:str": {
+      "full": 3390,
+      "sample": 142
+    },
+    "ext_type=PubMedCentral:NoneType": {
+      "full": 48185,
+      "sample": 2016
+    },
+    "ext_type=PubMedCentral:str": {
+      "full": 3,
+      "sample": 3
+    },
+    "ext_type=acl:NoneType": {
+      "full": 68137,
+      "sample": 2901
+    },
+    "ext_type=acl:str": {
+      "full": 1549,
+      "sample": 77
+    },
+    "ext_type=arxiv:NoneType": {
+      "full": 972,
+      "sample": 68
+    },
+    "ext_type=arxiv:str": {
+      "full": 68714,
+      "sample": 2910
+    },
+    "ext_type=dblp:NoneType": {
+      "full": 30243,
+      "sample": 1320
+    },
+    "ext_type=dblp:str": {
+      "full": 39443,
+      "sample": 1658
+    },
+    "ext_type=doi:NoneType": {
+      "full": 13272,
+      "sample": 575
+    },
+    "ext_type=doi:str": {
+      "full": 56414,
+      "sample": 2403
+    },
+    "ext_type=mag:NoneType": {
+      "full": 29479,
+      "sample": 1243
+    },
+    "ext_type=mag:str": {
+      "full": 40207,
+      "sample": 1735
+    },
+    "ext_type=pubmed:NoneType": {
+      "full": 65529,
+      "sample": 2766
+    },
+    "ext_type=pubmed:str": {
+      "full": 4157,
+      "sample": 212
+    },
+    "ext_type=pubmedcentral:NoneType": {
+      "full": 68254,
+      "sample": 2900
+    },
+    "ext_type=pubmedcentral:str": {
+      "full": 1432,
+      "sample": 78
+    },
+    "fields=('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 149,
+      "sample": 21
+    },
+    "fields=('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 3,
+      "sample": 3
+    },
+    "fields=('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 8346,
+      "sample": 361
+    },
+    "fields=('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'title', 'url')": {
+      "full": 345,
+      "sample": 17
+    },
+    "fields=('VitaLITy', 'abstract', 'authors', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 608,
+      "sample": 28
+    },
+    "fields=('VitaLITy', 'abstract', 'authors', 'externalids', 'title', 'url')": {
+      "full": 197,
+      "sample": 12
+    },
+    "fields=('VitaLITy', 'authors', 'citing_sentences', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 30750,
+      "sample": 1263
+    },
+    "fields=('VitaLITy', 'authors', 'citing_sentences', 'externalids', 'title', 'url')": {
+      "full": 2301,
+      "sample": 94
+    },
+    "fields=('VitaLITy', 'authors', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 4223,
+      "sample": 185
+    },
+    "fields=('VitaLITy', 'authors', 'externalids', 'title', 'url')": {
+      "full": 3910,
+      "sample": 156
+    },
+    "fields=('VitaLITy', 'citing_sentences', 'keywords_from_s2')": {
+      "full": 1,
+      "sample": 1
+    },
+    "fields=('VitaLITy',)": {
+      "full": 1,
+      "sample": 1
+    },
+    "fields=('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 7952,
+      "sample": 345
+    },
+    "fields=('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 9937,
+      "sample": 430
+    },
+    "fields=('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 17582,
+      "sample": 705
+    },
+    "fields=('abstract', 'authors', 'citing_sentences', 'externalids', 'title', 'url')": {
+      "full": 15259,
+      "sample": 605
+    },
+    "fields=('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1313,
+      "sample": 81
+    },
+    "fields=('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 4957,
+      "sample": 226
+    },
+    "fields=('abstract', 'authors', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 2767,
+      "sample": 109
+    },
+    "fields=('abstract', 'authors', 'externalids', 'title', 'url')": {
+      "full": 5837,
+      "sample": 229
+    },
+    "fields=('abstract', 'citing_sentences', 'externalids')": {
+      "full": 5,
+      "sample": 3
+    },
+    "fields=('abstract', 'externalids')": {
+      "full": 744,
+      "sample": 32
+    },
+    "fields=('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 543,
+      "sample": 44
+    },
+    "fields=('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 26,
+      "sample": 11
+    },
+    "fields=('abstract', 'externalids', 'keywords_from_s2')": {
+      "full": 38,
+      "sample": 4
+    },
+    "fields=('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 5,
+      "sample": 5
+    },
+    "fields=('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 4,
+      "sample": 4
+    },
+    "fields=('authors', 'citing_sentences', 'externalids', 'keywords_from_s2', 'title', 'url')": {
+      "full": 11,
+      "sample": 3
+    },
+    "fields=('authors', 'citing_sentences', 'externalids', 'title', 'url')": {
+      "full": 26,
+      "sample": 4
+    },
+    "fields=('authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "fields=('authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 2,
+      "sample": 2
+    },
+    "fields=('authors', 'externalids', 'title', 'url')": {
+      "full": 6,
+      "sample": 3
+    },
+    "fields=('citing_sentences', 'keywords_from_pdf')": {
+      "full": 1,
+      "sample": 1
+    },
+    "fields=('externalids', 'keywords_from_pdf')": {
+      "full": 8,
+      "sample": 7
+    },
+    "fields=('externalids',)": {
+      "full": 19,
+      "sample": 4
+    },
+    "id_digits=0": {
+      "full": 1,
+      "sample": 1
+    },
+    "id_digits=3": {
+      "full": 14,
+      "sample": 3
+    },
+    "id_digits=4": {
+      "full": 58,
+      "sample": 5
+    },
+    "id_digits=5": {
+      "full": 278,
+      "sample": 12
+    },
+    "id_digits=6": {
+      "full": 2709,
+      "sample": 148
+    },
+    "id_digits=7": {
+      "full": 19309,
+      "sample": 859
+    },
+    "id_digits=8": {
+      "full": 38575,
+      "sample": 1586
+    },
+    "id_digits=9": {
+      "full": 56933,
+      "sample": 2386
+    },
+    "kw_duplicated": {
+      "full": 1423,
+      "sample": 77
+    },
+    "kw_first_char=digit": {
+      "full": 162,
+      "sample": 14
+    },
+    "kw_first_char=lower": {
+      "full": 678,
+      "sample": 19
+    },
+    "kw_first_char=punct:' '": {
+      "full": 20,
+      "sample": 4
+    },
+    "kw_first_char=punct:'\"'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'('": {
+      "full": 10,
+      "sample": 3
+    },
+    "kw_first_char=punct:'-'": {
+      "full": 10,
+      "sample": 3
+    },
+    "kw_first_char=punct:'.'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:':'": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_first_char=punct:'@'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'['": {
+      "full": 16,
+      "sample": 3
+    },
+    "kw_first_char=punct:'_'": {
+      "full": 3,
+      "sample": 3
+    },
+    "kw_first_char=punct:'·'": {
+      "full": 23,
+      "sample": 4
+    },
+    "kw_first_char=punct:'–'": {
+      "full": 13,
+      "sample": 3
+    },
+    "kw_first_char=punct:'—'": {
+      "full": 20,
+      "sample": 3
+    },
+    "kw_first_char=punct:'‘'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'“'": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_first_char=punct:'”'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'†'": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_first_char=punct:'‡'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'•'": {
+      "full": 15,
+      "sample": 3
+    },
+    "kw_first_char=punct:'−'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'∗'": {
+      "full": 5,
+      "sample": 3
+    },
+    "kw_first_char=punct:'∞'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'■'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'【'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=punct:'：'": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_first_char=upper": {
+      "full": 23909,
+      "sample": 1099
+    },
+    "kw_format=acm_ccs": {
+      "full": 38,
+      "sample": 10
+    },
+    "kw_format=additional_keywords": {
+      "full": 45,
+      "sample": 14
+    },
+    "kw_format=author_keywords": {
+      "full": 163,
+      "sample": 22
+    },
+    "kw_format=index_terms": {
+      "full": 94,
+      "sample": 16
+    },
+    "kw_format=jel": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_format=keywords_and_phrases": {
+      "full": 745,
+      "sample": 48
+    },
+    "kw_format=keywords_bare": {
+      "full": 6325,
+      "sample": 269
+    },
+    "kw_format=keywords_colon": {
+      "full": 13986,
+      "sample": 574
+    },
+    "kw_format=keywords_dash": {
+      "full": 598,
+      "sample": 41
+    },
+    "kw_format=msc": {
+      "full": 326,
+      "sample": 28
+    },
+    "kw_format=other": {
+      "full": 760,
+      "sample": 61
+    },
+    "kw_format=pacs": {
+      "full": 1819,
+      "sample": 96
+    },
+    "kw_format_by_fields=acm_ccs|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 12,
+      "sample": 3
+    },
+    "kw_format_by_fields=acm_ccs|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 20,
+      "sample": 3
+    },
+    "kw_format_by_fields=acm_ccs|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=acm_ccs|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 5,
+      "sample": 3
+    },
+    "kw_format_by_fields=additional_keywords|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 33,
+      "sample": 5
+    },
+    "kw_format_by_fields=additional_keywords|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 4,
+      "sample": 3
+    },
+    "kw_format_by_fields=additional_keywords|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_format_by_fields=additional_keywords|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 5,
+      "sample": 3
+    },
+    "kw_format_by_fields=additional_keywords|('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=author_keywords|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 32,
+      "sample": 5
+    },
+    "kw_format_by_fields=author_keywords|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_format_by_fields=author_keywords|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 87,
+      "sample": 4
+    },
+    "kw_format_by_fields=author_keywords|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 9,
+      "sample": 3
+    },
+    "kw_format_by_fields=author_keywords|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 27,
+      "sample": 3
+    },
+    "kw_format_by_fields=author_keywords|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 4,
+      "sample": 3
+    },
+    "kw_format_by_fields=author_keywords|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_format_by_fields=index_terms|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 62,
+      "sample": 6
+    },
+    "kw_format_by_fields=index_terms|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 16,
+      "sample": 3
+    },
+    "kw_format_by_fields=index_terms|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 12,
+      "sample": 3
+    },
+    "kw_format_by_fields=index_terms|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 3,
+      "sample": 3
+    },
+    "kw_format_by_fields=index_terms|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=jel|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_format_by_fields=keywords_and_phrases|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 335,
+      "sample": 18
+    },
+    "kw_format_by_fields=keywords_and_phrases|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 224,
+      "sample": 12
+    },
+    "kw_format_by_fields=keywords_and_phrases|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 63,
+      "sample": 5
+    },
+    "kw_format_by_fields=keywords_and_phrases|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 97,
+      "sample": 6
+    },
+    "kw_format_by_fields=keywords_and_phrases|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 23,
+      "sample": 4
+    },
+    "kw_format_by_fields=keywords_and_phrases|('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_and_phrases|('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_and_phrases|('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_bare|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 95,
+      "sample": 6
+    },
+    "kw_format_by_fields=keywords_bare|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_bare|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 3594,
+      "sample": 144
+    },
+    "kw_format_by_fields=keywords_bare|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1404,
+      "sample": 53
+    },
+    "kw_format_by_fields=keywords_bare|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 494,
+      "sample": 21
+    },
+    "kw_format_by_fields=keywords_bare|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 585,
+      "sample": 26
+    },
+    "kw_format_by_fields=keywords_bare|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 133,
+      "sample": 9
+    },
+    "kw_format_by_fields=keywords_bare|('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 13,
+      "sample": 4
+    },
+    "kw_format_by_fields=keywords_bare|('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 2,
+      "sample": 2
+    },
+    "kw_format_by_fields=keywords_bare|('externalids', 'keywords_from_pdf')": {
+      "full": 4,
+      "sample": 3
+    },
+    "kw_format_by_fields=keywords_colon|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 4,
+      "sample": 3
+    },
+    "kw_format_by_fields=keywords_colon|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 2998,
+      "sample": 122
+    },
+    "kw_format_by_fields=keywords_colon|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 6684,
+      "sample": 272
+    },
+    "kw_format_by_fields=keywords_colon|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 538,
+      "sample": 28
+    },
+    "kw_format_by_fields=keywords_colon|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 3438,
+      "sample": 125
+    },
+    "kw_format_by_fields=keywords_colon|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 305,
+      "sample": 11
+    },
+    "kw_format_by_fields=keywords_colon|('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 9,
+      "sample": 3
+    },
+    "kw_format_by_fields=keywords_colon|('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_colon|('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 3,
+      "sample": 3
+    },
+    "kw_format_by_fields=keywords_colon|('authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_colon|('authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_colon|('citing_sentences', 'keywords_from_pdf')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_colon|('externalids', 'keywords_from_pdf')": {
+      "full": 3,
+      "sample": 3
+    },
+    "kw_format_by_fields=keywords_dash|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_dash|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 388,
+      "sample": 17
+    },
+    "kw_format_by_fields=keywords_dash|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 77,
+      "sample": 7
+    },
+    "kw_format_by_fields=keywords_dash|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 72,
+      "sample": 4
+    },
+    "kw_format_by_fields=keywords_dash|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 48,
+      "sample": 7
+    },
+    "kw_format_by_fields=keywords_dash|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 10,
+      "sample": 3
+    },
+    "kw_format_by_fields=keywords_dash|('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=keywords_dash|('authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=msc|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 34,
+      "sample": 4
+    },
+    "kw_format_by_fields=msc|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 190,
+      "sample": 12
+    },
+    "kw_format_by_fields=msc|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 8,
+      "sample": 3
+    },
+    "kw_format_by_fields=msc|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 89,
+      "sample": 6
+    },
+    "kw_format_by_fields=msc|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 5,
+      "sample": 3
+    },
+    "kw_format_by_fields=other|('VitaLITy', 'abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 5,
+      "sample": 3
+    },
+    "kw_format_by_fields=other|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 356,
+      "sample": 18
+    },
+    "kw_format_by_fields=other|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 180,
+      "sample": 15
+    },
+    "kw_format_by_fields=other|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 81,
+      "sample": 6
+    },
+    "kw_format_by_fields=other|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 122,
+      "sample": 14
+    },
+    "kw_format_by_fields=other|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 14,
+      "sample": 3
+    },
+    "kw_format_by_fields=other|('authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=other|('externalids', 'keywords_from_pdf')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_format_by_fields=pacs|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 45,
+      "sample": 4
+    },
+    "kw_format_by_fields=pacs|('abstract', 'authors', 'citing_sentences', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 1148,
+      "sample": 49
+    },
+    "kw_format_by_fields=pacs|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'keywords_from_s2', 'title', 'url')": {
+      "full": 11,
+      "sample": 3
+    },
+    "kw_format_by_fields=pacs|('abstract', 'authors', 'externalids', 'keywords_from_pdf', 'title', 'url')": {
+      "full": 564,
+      "sample": 31
+    },
+    "kw_format_by_fields=pacs|('abstract', 'externalids', 'keywords_from_pdf')": {
+      "full": 50,
+      "sample": 8
+    },
+    "kw_format_by_fields=pacs|('abstract', 'externalids', 'keywords_from_pdf', 'keywords_from_s2')": {
+      "full": 1,
+      "sample": 1
+    },
+    "kw_len=<=10": {
+      "full": 401,
+      "sample": 21
+    },
+    "kw_len=<=100": {
+      "full": 13052,
+      "sample": 575
+    },
+    "kw_len=<=1000": {
+      "full": 602,
+      "sample": 30
+    },
+    "kw_len=<=30": {
+      "full": 243,
+      "sample": 19
+    },
+    "kw_len=<=300": {
+      "full": 10344,
+      "sample": 521
+    },
+    "kw_len=>1000": {
+      "full": 259,
+      "sample": 15
+    },
+    "kw_non_ascii": {
+      "full": 4683,
+      "sample": 254
+    },
+    "kw_sep= - ": {
+      "full": 142,
+      "sample": 9
+    },
+    "kw_sep=,": {
+      "full": 18243,
+      "sample": 829
+    },
+    "kw_sep=/": {
+      "full": 502,
+      "sample": 27
+    },
+    "kw_sep=;": {
+      "full": 4757,
+      "sample": 253
+    },
+    "kw_sep=|": {
+      "full": 30,
+      "sample": 3
+    },
+    "kw_sep=·": {
+      "full": 1638,
+      "sample": 84
+    },
+    "kw_sep=—": {
+      "full": 677,
+      "sample": 54
+    },
+    "kw_sep=•": {
+      "full": 38,
+      "sample": 6
+    },
+    "n_authors=<=0": {
+      "full": 103,
+      "sample": 9
+    },
+    "n_authors=<=1": {
+      "full": 13995,
+      "sample": 601
+    },
+    "n_authors=<=10": {
+      "full": 16651,
+      "sample": 702
+    },
+    "n_authors=<=2": {
+      "full": 25546,
+      "sample": 1108
+    },
+    "n_authors=<=5": {
+      "full": 57040,
+      "sample": 2349
+    },
+    "n_authors=<=50": {
+      "full": 2870,
+      "sample": 107
+    },
+    "n_authors=<=500": {
+      "full": 275,
+      "sample": 13
+    },
+    "n_authors=>500": {
+      "full": 11,
+      "sample": 3
+    },
+    "n_citing=<=1": {
+      "full": 61401,
+      "sample": 2559
+    },
+    "n_citing=<=10": {
+      "full": 3482,
+      "sample": 149
+    },
+    "n_citing=<=2": {
+      "full": 16123,
+      "sample": 666
+    },
+    "n_citing=<=3": {
+      "full": 6072,
+      "sample": 242
+    },
+    "n_citing=<=30": {
+      "full": 705,
+      "sample": 35
+    },
+    "n_citing=<=5": {
+      "full": 4880,
+      "sample": 211
+    },
+    "n_citing=>30": {
+      "full": 14,
+      "sample": 3
+    },
+    "s2_cited_for=<=0": {
+      "full": 58408,
+      "sample": 2456
+    },
+    "s2_cited_for=<=100": {
+      "full": 195,
+      "sample": 17
+    },
+    "s2_cited_for=<=20": {
+      "full": 1978,
+      "sample": 79
+    },
+    "s2_cited_for=<=5": {
+      "full": 13189,
+      "sample": 569
+    },
+    "s2_cited_for=>100": {
+      "full": 2,
+      "sample": 2
+    },
+    "s2_mentions=<=1": {
+      "full": 6242,
+      "sample": 262
+    },
+    "s2_mentions=<=100": {
+      "full": 19,
+      "sample": 3
+    },
+    "s2_mentions=<=20": {
+      "full": 29282,
+      "sample": 1243
+    },
+    "s2_mentions=<=5": {
+      "full": 38229,
+      "sample": 1615
+    },
+    "title_duplicated": {
+      "full": 49,
+      "sample": 3
+    },
+    "title_len=<=10": {
+      "full": 40,
+      "sample": 8
+    },
+    "title_len=<=100": {
+      "full": 96855,
+      "sample": 4034
+    },
+    "title_len=<=200": {
+      "full": 16285,
+      "sample": 693
+    },
+    "title_len=<=30": {
+      "full": 3190,
+      "sample": 148
+    },
+    "title_len=>200": {
+      "full": 121,
+      "sample": 9
+    },
+    "title_non_ascii": {
+      "full": 3652,
+      "sample": 172
+    },
+    "vit_author_disambiguated": {
+      "full": 6952,
+      "sample": 285
+    },
+    "vit_citations=<=0": {
+      "full": 18065,
+      "sample": 796
+    },
+    "vit_citations=<=9": {
+      "full": 15720,
+      "sample": 659
+    },
+    "vit_citations=<=99": {
+      "full": 15261,
+      "sample": 612
+    },
+    "vit_citations=<=999": {
+      "full": 1784,
+      "sample": 72
+    },
+    "vit_citations=>999": {
+      "full": 4,
+      "sample": 3
+    },
+    "vit_decade=1970s": {
+      "full": 267,
+      "sample": 11
+    },
+    "vit_decade=1980s": {
+      "full": 1351,
+      "sample": 52
+    },
+    "vit_decade=1990s": {
+      "full": 2255,
+      "sample": 99
+    },
+    "vit_decade=2000s": {
+      "full": 10803,
+      "sample": 475
+    },
+    "vit_decade=2010s": {
+      "full": 33532,
+      "sample": 1405
+    },
+    "vit_decade=2020s": {
+      "full": 2626,
+      "sample": 100
+    },
+    "vit_n_keywords=<=1": {
+      "full": 14845,
+      "sample": 638
+    },
+    "vit_n_keywords=<=10": {
+      "full": 14295,
+      "sample": 620
+    },
+    "vit_n_keywords=<=3": {
+      "full": 8231,
+      "sample": 331
+    },
+    "vit_n_keywords=<=5": {
+      "full": 8337,
+      "sample": 343
+    },
+    "vit_n_keywords=>10": {
+      "full": 5126,
+      "sample": 210
+    },
+    "vit_source=ACM Trans. Comput. Hum. Interact.": {
+      "full": 348,
+      "sample": 18
+    },
+    "vit_source=AVI": {
+      "full": 986,
+      "sample": 36
+    },
+    "vit_source=BCS HCI": {
+      "full": 643,
+      "sample": 32
+    },
+    "vit_source=BCS HCI (1)": {
+      "full": 41,
+      "sample": 5
+    },
+    "vit_source=BCS HCI (2)": {
+      "full": 147,
+      "sample": 9
+    },
+    "vit_source=BELIV": {
+      "full": 104,
+      "sample": 9
+    },
+    "vit_source=BioVis": {
+      "full": 47,
+      "sample": 3
+    },
+    "vit_source=CHI": {
+      "full": 6835,
+      "sample": 257
+    },
+    "vit_source=CSCW": {
+      "full": 1365,
+      "sample": 52
+    },
+    "vit_source=CogSci": {
+      "full": 7191,
+      "sample": 284
+    },
+    "vit_source=Cognitive Biases in Visualizations": {
+      "full": 12,
+      "sample": 4
+    },
+    "vit_source=Comput. Graph. Forum": {
+      "full": 2404,
+      "sample": 98
+    },
+    "vit_source=Conference on Designing Interactive Systems": {
+      "full": 1054,
+      "sample": 50
+    },
+    "vit_source=Conference on Designing Interactive Systems (Companion Volume)": {
+      "full": 433,
+      "sample": 21
+    },
+    "vit_source=Diagrams": {
+      "full": 523,
+      "sample": 22
+    },
+    "vit_source=EuroVAST@EuroVis": {
+      "full": 14,
+      "sample": 3
+    },
+    "vit_source=Eurographics": {
+      "full": 371,
+      "sample": 21
+    },
+    "vit_source=Eurographics (Areas Papers)": {
+      "full": 29,
+      "sample": 5
+    },
+    "vit_source=Eurographics (Posters)": {
+      "full": 174,
+      "sample": 6
+    },
+    "vit_source=Eurographics (Short Papers)": {
+      "full": 313,
+      "sample": 14
+    },
+    "vit_source=Eurographics (State of the Art Reports)": {
+      "full": 73,
+      "sample": 4
+    },
+    "vit_source=Graphics Interface": {
+      "full": 529,
+      "sample": 22
+    },
+    "vit_source=ICDM": {
+      "full": 2355,
+      "sample": 91
+    },
+    "vit_source=IEEE Computer Graphics and Applications": {
+      "full": 2146,
+      "sample": 89
+    },
+    "vit_source=IEEE Trans. Vis. Comput. Graph.": {
+      "full": 2712,
+      "sample": 115
+    },
+    "vit_source=IEEE VAST": {
+      "full": 442,
+      "sample": 27
+    },
+    "vit_source=IEEE VIS (Short Papers)": {
+      "full": 55,
+      "sample": 5
+    },
+    "vit_source=IEEE Visualization": {
+      "full": 307,
+      "sample": 13
+    },
+    "vit_source=INTERACT": {
+      "full": 125,
+      "sample": 6
+    },
+    "vit_source=INTERACT (1)": {
+      "full": 377,
+      "sample": 23
+    },
+    "vit_source=INTERACT (2)": {
+      "full": 453,
+      "sample": 21
+    },
+    "vit_source=INTERACT (3)": {
+      "full": 218,
+      "sample": 16
+    },
+    "vit_source=INTERACT (4)": {
+      "full": 437,
+      "sample": 19
+    },
+    "vit_source=IUI": {
+      "full": 1337,
+      "sample": 42
+    },
+    "vit_source=IV": {
+      "full": 1569,
+      "sample": 57
+    },
+    "vit_source=IV (1)": {
+      "full": 69,
+      "sample": 6
+    },
+    "vit_source=IV (2)": {
+      "full": 29,
+      "sample": 3
+    },
+    "vit_source=IVAPP": {
+      "full": 36,
+      "sample": 5
+    },
+    "vit_source=Information Visualization": {
+      "full": 9,
+      "sample": 3
+    },
+    "vit_source=International Conference on Supercomputing": {
+      "full": 47,
+      "sample": 4
+    },
+    "vit_source=J. Vis.": {
+      "full": 858,
+      "sample": 37
+    },
+    "vit_source=KDD": {
+      "full": 3878,
+      "sample": 162
+    },
+    "vit_source=PacificVis": {
+      "full": 401,
+      "sample": 15
+    },
+    "vit_source=SIBGRAPI": {
+      "full": 693,
+      "sample": 26
+    },
+    "vit_source=SIGGRAPH": {
+      "full": 941,
+      "sample": 38
+    },
+    "vit_source=SIGGRAPH Asia": {
+      "full": 7,
+      "sample": 3
+    },
+    "vit_source=SIGMOD Conference": {
+      "full": 2414,
+      "sample": 102
+    },
+    "vit_source=SciVis": {
+      "full": 53,
+      "sample": 5
+    },
+    "vit_source=UIST": {
+      "full": 1094,
+      "sample": 40
+    },
+    "vit_source=UbiComp": {
+      "full": 1151,
+      "sample": 53
+    },
+    "vit_source=VAST": {
+      "full": 373,
+      "sample": 13
+    },
+    "vit_source=VAST (Short and Project Papers)": {
+      "full": 50,
+      "sample": 9
+    },
+    "vit_source=VCBM": {
+      "full": 167,
+      "sample": 6
+    },
+    "vit_source=VMV": {
+      "full": 288,
+      "sample": 14
+    },
+    "vit_source=Vis. Comput.": {
+      "full": 2107,
+      "sample": 99
+    }
+  }
+}
