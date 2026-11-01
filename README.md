@@ -4,6 +4,9 @@ A benchmark for a keyword prediction task: input academic paper --> output keywo
 ## Description of Dataset
 
 Dataset is discussed <a href="README_for_dataset.md">here</a>.
+That link also explains how to download the larger collection of 117,877 json records (352 MB).
+Since that collection is too large for for GitHub, there is a small (teaser) sample <a href="sample">here</a>.
+
 
 ## Examples of scoring
 
